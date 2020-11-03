@@ -1,4 +1,8 @@
-import * as firebase from 'firebase/app';
+// Before 8.0.0
+// import * as firebase from 'firebase/app'
+// After 8.0.0
+// import firebase from 'firebase/app'
+import firebase from 'firebase/app'
 import 'firebase/storage';
 import 'firebase/firestore';
 
@@ -12,6 +16,7 @@ var firebaseConfig = {
     messagingSenderId: "1075349596769",
     appId: "1:1075349596769:web:eb60695ee6a8c556929820"
   };
+  
 // Initialize Firebase
 firebase.initializeApp(firebaseConfig);
 
