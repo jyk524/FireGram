@@ -3,9 +3,11 @@ import React from 'react';
 const Title = () => {
   return (
     <div className="title">
-      <h1>FireGram</h1>
-      <h2>Your Pictures</h2>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      <h1>JykGram</h1>
+      <h2>James's Gallery</h2>
+      <p>
+        To upload photos choose a file and it will be automatically uploaded, PNG and JPEG files accepted. Click a photo to enlarge it.
+      </p>
     </div>
   )
 }
