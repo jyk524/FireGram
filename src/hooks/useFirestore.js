@@ -6,15 +6,15 @@ const useFirestore = (collection) => {
 
     useEffect(() => {
         const unsub = projectFirestore.collection(collection)
-          .orderBy('createdAt', 'desc')
-          // Real-Time Data Updating, gets snapshot of data and ID
-          .onSnapshot((snap) => {
-            let documents = [];
-            snap.forEach(doc => {
-              documents.push({...doc.data(), id: doc.id})
+            .orderBy('createdAt', 'desc')
+            // Real-Time Data Updating, gets snapshot of data and ID
+            .onSnapshot((snap) => {
+                let documents = [];
+                snap.forEach(doc => {
+                    documents.push({...doc.data(), id: doc.id})
+                });
+                setDocs(documents);
             });
-            setDocs(documents);
-          });
           // unsubscribes when we want to use it
           return () => unsub();
 
