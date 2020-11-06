@@ -29,4 +29,4 @@
   ### Links and Email
   * (https://github.com/GitHub.com/jyk524)
   * Jyk524@gmail.com
-  * Link to deployed App : https://main.d3p0siqbwr2d4g.amplifyapp.com/
+  * Link to deployed App *requires paid hosting to work atm*: https://main.d3p0siqbwr2d4g.amplifyapp.com/
