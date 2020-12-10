@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 
 const Title = () => {
   return (
@@ -6,10 +6,11 @@ const Title = () => {
       <h1>JykGram</h1>
       <h2>James's Gallery</h2>
       <p>
-        To upload photos choose a file and it will be automatically uploaded, PNG and JPEG files accepted. Click a photo to enlarge it.
+        To upload photos choose a file and it will be automatically uploaded,
+        PNG and JPEG files are accepted. Click a photo to enlarge it.
       </p>
     </div>
-  )
-}
+  );
+};
 
 export default Title;
