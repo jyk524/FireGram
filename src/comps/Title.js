@@ -7,7 +7,7 @@ const Title = () => {
       <h2>James's Gallery</h2>
       <p>
         To upload photos choose a file and it will be automatically uploaded,
-        PNG and JPEG files are accepted. Click a photo to enlarge it.
+        PNG and JPEG files are accepted. Click on a photo to enlarge it.
       </p>
     </div>
   );
