@@ -24,7 +24,7 @@
 
 ### Usage
 
-- As a personal or commercial gallery(with added authenticatyion)
+- As a personal or commercial gallery(with added authentication)
 
 ### License
 
